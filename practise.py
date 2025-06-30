@@ -1,0 +1,12 @@
+basic_salary = 1500
+bonus_rate = 200
+comission_rate = 0.02
+numberofcamera = int(input("Enter the number of input sold:"))
+price = float(input("Enter the price per camera:"))
+bonus = (bonus_rate*numberofcamera*price)
+bonus = (200*5)
+comission = (comission_rate * numberofcamera * price)
+comission = (0.02*5*800)
+Total_salary=basic_salary+bonus+comission
+Total_salary=1500+80+1000
+total price = 2580
